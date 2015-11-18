@@ -7,17 +7,17 @@
 
 /*DEFAULT CONFIGURATIONS*/
 
-#define MQTT_HOST			"192.168.11.122" //or "mqtt.yourdomain.com"
-#define MQTT_PORT			1880
+#define MQTT_HOST			"123.57.208.39" //or "mqtt.yourdomain.com"
+#define MQTT_PORT			1883
 #define MQTT_BUF_SIZE		1024
 #define MQTT_KEEPALIVE		120	 /*second*/
 
-#define MQTT_CLIENT_ID		"DVES_%08X"
-#define MQTT_USER			"DVES_USER"
-#define MQTT_PASS			"DVES_PASS"
+#define MQTT_CLIENT_ID		"LB_%08X"
+#define MQTT_USER			"linkgo-tester"
+#define MQTT_PASS			"123456"
 
-#define STA_SSID "DVES_HOME"
-#define STA_PASS "yourpassword"
+#define STA_SSID "wifi-ssid"
+#define STA_PASS "wifi-psk"
 #define STA_TYPE AUTH_WPA2_PSK
 
 #define MQTT_RECONNECT_TIMEOUT 	5	/*second*/
