@@ -101,7 +101,13 @@ CFG_Load()
 
 		sysCfg.mqtt_keepalive = MQTT_KEEPALIVE;
 
-		INFO(" default configuration\r\n");
+		INFO("default configuration\r\n");
+		INFO("device id: %s\r\n", sysCfg.device_id);
+		INFO("ssid: %s (raw: %s)\r\n", sysCfg.sta_ssid, STA_SSID);
+		INFO("psk : %s\r\n", sysCfg.sta_pwd);
+		INFO("mqtt user: %s\r\n", sysCfg.mqtt_user);
+		INFO("mqtt pass: %s\r\n", sysCfg.mqtt_pass);
+		INFO("mqtt port: %d\r\n", sysCfg.mqtt_port);
 
 		CFG_Save();
 	}
